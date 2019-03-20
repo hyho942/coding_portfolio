@@ -1,0 +1,83 @@
+.row_sign_up {
+    margin-top: 100px;
+}
+.form-control {
+    margin-top: 10px;
+}
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    text-align: center;
+    display: block;
+}
+.input-group-append {
+    margin-top: 10px;
+    display: inline-block;
+}
+.btn-outline-success {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.address_search {
+    text-align: center;
+}
+
+.input-group {
+    margin-top: 10px;
+}
+.mb-3 {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#message_id {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message_pw {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+.gender_s {
+    text-align: center;
+    margin: 10px;
+}

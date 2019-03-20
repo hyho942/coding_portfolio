@@ -1,0 +1,47 @@
+.tit {
+    z-index: 2;
+}
+.text_game_num {
+    margin-top: 300px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.form_input {
+    display: inline-block;
+    width: 200px;
+}
+.mdl-button {
+    display: inline-block;
+    width: 200px;
+}
+
+.mdl-data-table {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg_img {
+    background-image: url("img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1100px;
+    z-index: 1;
+}
+.pop {
+    display: none;
+}
+.back_btn {
+    display: none;
+}
+
+.table-body > tr > td {
+    text-align: center;
+}
+
+.table-head > tr > td {
+    text-align: center;
+}
