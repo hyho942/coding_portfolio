@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>SSG_Mall</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">통합검색</button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with dropdown button">
+    </div>
+    <!-- bottom menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavAltMarkup"
+        aria-controls="navbarNavAltMakup" aria-expanded="false" aria-label="Togglenavigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapsenavbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)<span></a>
+          <a class="nav-item nav-link" href="#">Features<a>
+              <a class="nav-item nav-link" href="#">Pricing</a>
+              <a class="nav-item nav-link disabled" href="#" tabindex="-1"aria-disabled="true">Disabled</a>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+    <!-- image -->
+      <div class="col-sm-6">
+        <div class="item_display_intro">
+          <a class="main_item_show"> <img src="ssg_img/main_item.jpg"></a>
+          <div class="color_box report">
+          </div>
+        </div>
+      </div>
+      <a class="col-sm-6">
+        <!-- Item Search Link -->
+        <div class="item_link">
+          <span class="highlight_tag"><mark>이마트몰</mark></span>
+          <span>#APPLE</span>
+        </div>
+        <!-- Item Title -->
+        <div class="item_info intro_title">
+          <h5>[Apple] 2018 12.9형 iPad Pro Wifi 256GB - 스페이스그레이 (MTFL2KH/A)</h5>
+        </div>
+        <!-- Item Price -->
+        <div class="item_info intro_price">
+          <span class="head_price">1,366,170 <small>원</small></span>
+          <span class="line_thur">1,469,000 원</span>
+          <span class="discount_history">할인내역</span>
+        </div>
+        <!-- Card Benefit Price -->
+        <hr class="hr_divide">
+        </hr>
+        <div class="item_info intro_card_benefit_price">
+          <span class="tr_td_one">카드혜택가</span>
+          <span class="item_info_col_2 cardBenefit_red">1,316,170 원~</span>
+          <!-- <span class="item_info_col_4 row_end">카드사 확인</span> -->
+          <div class="item_info_col_2">
+          <button type="button" class="btn tem_info_col_4 row_end cardCompany" data-container="body" data-toggle="popover" data-placement="bottom" data-content="">
+          할인내역 v
+          </button>
+          <!-- popover_m -->
+                    <div class="popover_CardCompany_check">
+                      <h5>할인내역</h5>
+                      <hr>
+                      <table>
+                        <tr>
+                          <td>판매가</td>
+                          <td>1,469,000원</td>
+                        </tr>
+                        <tr>
+                          <td>최적가</td>
+                          <td>1,395,550원</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>쿠폰</td>
+                          <td>73,450원</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>[아이패드 프로 5%]</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>쿠폰 기간</td>
+                          <td>2019.03.22 ~ 2019.03.31</td>
+                          <td>기간은 사정에 의해 변경될 수 있습니다.</td>
+                        </tr>
+                      </table>
+                    </div>
+        </div>
+
+        </div>
+        <!-- Card Benefit -->
+        <hr class="hr_divide">
+        </hr>
+        <div class="item_info intro_card_benefit_info">
+          <span class="tr_td_one">카드혜택</span>
+          <span class="item_info_col_2">무이자할부</span>
+          <span class="item_info_col_3">이마트 e카드 바로발급</span>
+          <span class="item_info_col_4">SSGPAY카드 바로 발급</span>
+
+        </div>
+        <!-- Item Delivery -->
+        <hr class="hr_divide">
+        </hr>
+        <div class="item_info intro_item_delivery">
+          <span class="tr_td_one">배송정보</span>
+          <span class="item_info_col_2 border_box">점포택배</span>
+          <span class="item_info_col_3">평균 2일 이내 배송 (토,일,공휴일 제외)</span>
+          <br>
+          <span class="tr_td_one">배송비</span>
+          <span class="item_info_col_2">무료</span>
+        </div>
+        <!-- Item Count -->
+        <br>
+        <div class="item_info intro_item_count_price">
+          <span class="intro_item_count_price_text">[Apple] 2018 12.9형 iPad Pro Wifi 256GB - 스페이스그레이 (MTFL2KH/A)</span>
+
+          <div class="number_count">
+            <button type="button" class="number_control align-items-center subt">-</button>
+              <input type="number" class="item_count_input align-items-center">
+            <button type="button" class="number_control align-items-center add">+</button>
+          </div>
+
+        </div>
+        <div class="item_info intro_item_total_cost">합계 1,395,550 원</div>
+        <br>
+        <div class="btn_cart_purchase">
+          <div href="#" class="item_info_cart">장바구니</div>
+          <div href="#" class="item_info_purchase">바로구메</div>
+          <div href="#" class="item_info_gift">선물</div>
+          <div href="#" class="item_info_clip">클립</div>
+        </div>
+      </div>
+  </div>
+  <hr>
+  
+<!-- 여기부터 하단 메뉴 작업 -->
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm-9">
+        <div class="item_detail_withImage">
+          <table class="three_grid_menu">
+            <ul class="nav navbar-nav fixed_menu_item">
+                <tr>
+                  <td><a href="#section1" class="fixed_item_menu col-sm">상품상세정보</a></td>
+                  <td><a href="#section2" class="fixed_item_menu col-sm">고객상품평("#")</a></td>
+                  <td><a href="#section3" class="fixed_item_menu col-sm">배송/반품/교환 안내</a></td>
+                </tr>
+            </ul>
+          </table>
+          
+          <div id="section1" class="container-fluid">
+            <h5>상품상세정보</h5>
+            <hr class="thick">
+            <p>상품번호 : 1000032140974</p>
+            <h5>상품필수정보</h5>
+            <table>
+              <tr class="item_text_descrip">
+                <td>품명 및 모델명</td>
+                <td>애플 MTXT2KH/A IPAD</td>
+              </tr>
+              <tr class="item_text_descrip">
+                <td>법에 의한 인증, 허가 등을 받았음을 확인할 수 있는 경우 그에 대한 사항</td>
+                <td>해당사항없음</td>
+              </tr>
+              <tr class="item_text_descrip">
+                <td>제조사/수입자</td>
+                <td>애플/애플코리아</td>
+              </tr>
+              <tr class="item_text_descrip">
+                <td>제조국</td>
+                <td>중국</td>
+              </tr>
+              <tr class="item_text_descrip">
+                <td>A/S 책임자와 전화번호</td>
+                <td>(고객센터) Apple 공인 서비스센터 : 080-333-4000</td>
+              </tr>
+              <tr class="item_text_descrip">
+                <td>전파인증 대상</td>
+                <td>해당 사항 없음</td>
+              </tr>
+            </table>
+            <br>
+            <table>
+              <tr class="item_text_descrip">
+                <td>제품 안전인증정보</td>
+                <td><img src="ssg_img/kc.png" width="30px"> 안전인증 대상 품목으로 아래의 국가 통합인증 필함안전인증번호XU100866-18004상세보기</td>
+              </tr>
+            </table>
+            <div class="imgs_descrip">
+              <img src="ssg_img/item_descrip_1.jpg">
+              <img src="ssg_img/item_descrip_2.jpg">
+              <img src="ssg_img/item_descrip_3.jpg">
+              <img src="ssg_img/item_descrip_4.jpg">
+              <img src="ssg_img/item_descrip_5.jpg">
+            </div>
+          </div>
+          <div id="section2" class="container-fluid">
+            <h1>Section 2</h1>
+            <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+          </div>
+          <div id="section3" class="container-fluid">
+            <h1>Section 3</h1>
+            <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 color_box"></div>
+    </div>
+</div>
+
+
+
+  <!-- <nav class="navbar navbar-inverse navbar-fixed-top header sticky">
+    <div class="container-fluid">
+      <div class="navbar-header" id="myHeader">
+        <div>
+        </div>
+      </nav> -->
+    <!-- <div class="container-fluid">
+      <div class="collapse navbar-collapse header sticky" id="myHeader">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">상품상세정보</a></li>
+          <li><a href="#section2">고객상품평("#")</a></li>
+          <li><a href="#section3">배송/반품/교환 안내</a></li>
+        </ul>
+      </div>
+    </div> -->
+
+
+
+<!-- 하단 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="ssg.css" />
+    <script src="ssg.js"></script>
+</body>
+
+</html>

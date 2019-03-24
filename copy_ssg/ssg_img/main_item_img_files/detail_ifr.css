@@ -1,0 +1,17 @@
+@charset "utf-8";
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-size:12px;font-family:'나눔바른고딕',NanumBarunGothic,sans-serif;}
+img,fieldset,button{border:0}
+button{border:0;cursor:pointer}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+body{overflow-y:auto;overflow-x:hidden;text-align:center;top:0 !important}
+body:after{content:''; display:block; clear:both}
+img{vertical-align:top;max-width:930px;height:auto !important}
+table{margin:0 auto}
+iframe{max-width:100%}
+.blind{overflow:hidden;position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;line-height:0;white-space:normal;word-wrap:break-word;word-break:break-all;clip:rect(0,0,0,0)}
+.blind:before{display:block;width:0;height:0;font-size:0;content:'\00a0'}
+.skiptranslate{display:none !important}

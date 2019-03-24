@@ -1,0 +1,242 @@
+.color_box {
+    background-color: gray;
+}
+/* Item Info Contents */
+.row {
+    margin-top: 30px;
+}
+.container {
+    max-width: 1300px;
+}
+a:hover {
+    color: none;
+    text-decoration: none;
+}
+/* Nav */
+.input-group {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+/* Main Contents */
+.main_item_show {
+    border-radius: 10px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    width: 100%;
+}
+.tr_td_one {
+    display: inline-block;
+    width: 80px;
+}
+.item_info {
+    line-height: 40px;
+}
+
+/* Item head */
+.hr_divide {
+    width: 100%;
+}
+mark {
+    background-color: #f9d05d;
+    color: black;
+}
+.head_price {
+    display: inline-block;
+    font-size: 2.5em;
+}
+/* Item Price */
+.line_thur {
+    width: 100px;
+    display: inline-block;
+    text-decoration-line: line-through;
+}
+.item_info_col_2 {
+    margin-left: 80px;
+    display: inline;
+}
+.item_info_col_3 {
+    margin-left: 20px;
+}
+.item_info_col_4 {
+    margin-left: 20px;
+}
+.cardBenefit_red {
+    color: red;
+}
+.popover_CardCompany_check {
+    display: none;
+}
+.row_end {
+    float: right;
+}
+.border_box {
+    padding: 5px 15px 5px 15px;
+    border: 1px solid black;
+    border-radius: 0px;
+    line-height: 10px;
+}
+.popover-body {
+    height: 300px;
+    width: 500px;
+}
+/* sub contents */
+.report {
+    border-radius: 10px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+}
+
+/* Item Count */
+.intro_item_count_price {
+    background-color: #f1f1f1;
+    height: 100px;
+}
+.intro_item_count_price_text {
+    color: gray;
+    padding: 20px;
+}
+.number_count {
+    padding: 20px;
+    display: inline-block;
+    height: 50px;
+}
+.item_count_input {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    height: 28px;
+    width: 38px;
+    border: 1px solid gray;
+}
+.number_control {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    height: 28px;
+    width: 28px;
+    line-height: 0px;
+    border: 1px solid gray;
+}
+.subt {
+    border-right-style: none;
+}
+.add {
+    border-left-style: none;
+}
+.intro_item_total_cost {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+/* Button Purchase */
+.item_info_cart {
+    background: black;
+    color: white;
+    display: inline-block;
+    width: 35%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.item_info_purchase {
+    background: #ef6760;
+    color: white;
+    display: inline-block;
+    width: 35%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.item_info_gift {
+    background: whiteW;
+    color: black;
+    display: inline-block;
+    width: 13%;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+}
+.item_info_clip {
+    background: whiteW;
+    color: black;
+    display: inline-block;
+    width: 13%;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* Fixed menu bottom */
+.fixed_item_menu {
+    color: black;
+    display: inline-block;
+}
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+tr,
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.item_text_descrip > td {
+    text-align: left;
+    padding: 15px;
+}
+.item_text_descrip td:nth-child(1) {
+    width: 200px;
+}
+.imgs_descrip > img {
+    width: 100%;
+}
+#section1 {
+    padding-top: 50px;
+    height: 500px;
+    color: black;
+}
+#section2 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #673ab7;
+}
+#section3 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #ff9800;
+}
+
+/* body {
+    position: relative;
+} */
+.header {
+    height: 100px;
+    background-color: gray;
+}
+.container-fluid {
+    display: inline-block;
+}
+/* .sticky {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+
+/* 정정 */
+
+.color_box {
+    background-color: gray;
+}
